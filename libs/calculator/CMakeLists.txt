@@ -1,3 +1,4 @@
+# Copyright (c) 2021 Emmanuel Arias
 set (PROJECT_NAME calculator_lib)
 
 project (${PROJECT_NAME} CXX)

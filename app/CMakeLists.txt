@@ -1,3 +1,4 @@
+# Copyright (c) 2021 Emmanuel Arias
 set (PROJECT_NAME cpp_project_template)
 
 project (${PROJECT_NAME} CXX)
