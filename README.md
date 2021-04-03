@@ -20,7 +20,7 @@ cmake ..
 make
 ```
 
-The executable for the program and the unit tests will be in the `bin/` folder.
+The executable for the program and the unit tests will be in the `bin/app` folder.
 
 ## TODO:
 
