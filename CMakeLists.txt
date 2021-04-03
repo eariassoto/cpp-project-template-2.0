@@ -10,5 +10,8 @@ add_subdirectory(libs/calculator)
 add_subdirectory(app)
 
 add_subdirectory(tests)
+
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT cpp_project_template)
+
 enable_testing()
 add_test (NAME CalculatorLibUT COMMAND calculator_lib_ut)

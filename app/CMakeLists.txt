@@ -14,6 +14,8 @@ include_directories(${calculator_lib_SOURCE_DIR}/src/include)
 # Add the executable for the program
 add_executable (${PROJECT_NAME})
 
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME})
+
 target_sources(${PROJECT_NAME}
     PRIVATE
       src/main.cpp
